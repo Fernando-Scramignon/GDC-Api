@@ -38,6 +38,31 @@ pip install -r requirements.txt
 
 <br>
 
+- **creating database**
+
+Create a postgresql database
+
+On the postgres cli:
+
+```bash
+CREATE DATABASE nameHere;
+```
+
+<br>
+
+- **configuring enviroment**
+
+At the root of the project, create a file called .env and copy the environment varibles from .env.example file.
+The app needs at least the SECRET KEY, POSTGRES_DB, POSTGRES_USER and POSTGRES_PASSWORD.
+
+example:
+
+```python
+POSTGRES_DB=gdc_api
+```
+
+<br>
+
 - **running migrations**
 
 This will create the database tables
@@ -73,16 +98,18 @@ The port may vary depending where the server is running. The default port is 800
 ## Deploy links
 
 - **routes documentation**
-<br/>
+
 https://gdc-api.herokuapp.com/docs/redoc/
-<br/>
 https://gdc-api.herokuapp.com/docs/swagger-ui/
 
+<br/>
 
 - **base url**
-<br/>
+
 https://gdc-api.herokuapp.com/api
 
-  - **request example**
 <br/>
+
+  - **request example**
+
 https://gdc-api.herokuapp.com/api/login/
