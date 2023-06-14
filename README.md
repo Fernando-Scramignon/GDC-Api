@@ -94,22 +94,3 @@ http://localhost:8000/api/docs/swagger-ui/
 The first one is a download of a yaml file and the second is the documentation ui.
 <br>
 The port may vary depending where the server is running. The default port is 8000.
-
-## Deploy links
-
-- **routes documentation**
-
-https://gdc-api.herokuapp.com/docs/redoc/
-https://gdc-api.herokuapp.com/docs/swagger-ui/
-
-<br/>
-
-- **base url**
-
-https://gdc-api.herokuapp.com/api
-
-<br/>
-
-  - **request example**
-
-https://gdc-api.herokuapp.com/api/login/
